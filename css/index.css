@@ -1,0 +1,132 @@
+*{margin:0; padding: 0; list-style: none; text-decoration: none; }
+
+/*顶部导航部分*/
+body{
+    font:12px consoals;
+}
+.header{width: 100%; height: 130px;min-width: 1200px; }
+.top-nav{height: 30px;  background: #F1F1F1;}
+.top-nav li a{color:#666}
+.center{ height: 30px; width: 1200px;line-height: 30px; margin: 0 auto;}
+.top-nav .fl,.fr .fore1{ float: left;font-size: 12px; }
+.top-nav li{float: left; height: 30px; padding: 0 8px; }
+.top-nav .fr{ float: right;font-size: 14px}
+.link-login{color: #666;}
+.top-nav .link-regist{color:#C81623;}
+.fr .fore1{margin-right:10px}
+.jd-p{position: relative;padding: 0 25px;}
+.jd-p i{position:absolute;}
+.p-icon{top: 5px; left: 7px; width: 15px; height: 20px;background: url("../images/jd2015img.png") 0 0 no-repeat;}
+.p-right{top: 12px; right: 4px;  height: 7px;  overflow: hidden;  font: 400 15px/4px consolas;color: #6A6A6A;
+    -webkit-transition: -webkit-transform 0.1s ease-in 0s;}
+.p-right span{position: relative;}
+.top-nav li.spacer{width: 1px; height: 12px; margin-top: 9px;padding:0; background: #ddd; overflow: hidden}
+.fr li:hover a{color: #C81623 }
+
+/*子导航搜索部分*/
+.sub-nav{width: 1200px; height:100px; margin: 0 auto;}
+.logo-2016{width:362px;height: 60px;padding: 20px 0;float: left;position: relative}
+.logo{display: block;width: 270px;height: 60px;background:url("../images/logo.png") 0 0 no-repeat;
+    text-indent: -9999px; }
+.search-2016{margin-top: 32px; height: 36px;display: block;float: left;margin-bottom: 4px }
+.search{width: 445px;height: 24px; line-height: 24px; padding: 4px; float: left;border-color: #B61D1D;
+    border-style: solid; outline: 0; border-width: 2px 0 2px 2px; }
+.search-btn{float:left;width: 82px; height:36px; line-height:36px; background:#B61D1D;font-size: 16px;
+    color: #fff;cursor: pointer; border: none}
+.shopcar{ float:right; height: 36px; padding: 32px 0; position: relative;}
+.shopall{background: #F9F9F9;width: 75px;height: 34px; border: 1px solid #DFDFDF;
+    padding: 0 28px 0 36px;  text-align: center;  line-height: 34px; font-size: 14px; position:relative;}
+.shopall a{color:#666;}
+.shopall:hover a{color:#C81623}
+.shopcar .shop-icon{position:absolute; display:block; top: 9px; left: 13px; width: 18px; height: 16px;
+    background:url("../images/jd2015img.png") 0 -58px no-repeat; }
+.shop-right{position: absolute;top:11px; right:10px;  width:7px; height: 13px; overflow: hidden;
+    font: 400 13px/13px SimSun;  color: #999}
+.sub-nav .hotwords{float: left; width: 518px; height: 20px; line-height: 20px; font-size: 12px;}
+.hotwords a {color: #666; margin-right: 10px; float: left;}
+.hotwords a:hover{color:#c81623}
+.clr{display: block; overflow: hidden; clear: both;}
+
+/*菜单导航栏*/
+.main{width: 100%; height: 44px; border-bottom: 2px solid #B1191A}
+.main .menu{width: 1200px;height: 44px; margin: 0 auto;position: relative;}
+.main .all{width:210px;height: 44px;float: left;position: relative; background: #B1191A }
+.main .dt a{color:#fff;display:block;width: 190px; height:44px;padding:0 10px; font:400 15px/44px "micosoft yahei"}
+.menu-right{float: left;}
+.menu-right .m-right li{float: left; height: 44px; color:#333;padding: 0 20px; text-align: center; line-height: 44px}
+.menu-right .m-right li:hover{color:#C81623}
+
+/*侧边栏*/
+.main .dd{height: 466px;background: #c81623; margin-top: 2px;z-index: 10}
+.dd .dd-inner{z-index: 10}
+.dd-inner .item{height: 31px; position:relative; border-left: 1px solid #b61d1d;}
+.dd-inner .item:hover{background:#f7f7f7}
+.dd-inner .item:hover a{color:#C81623 }
+.dd-inner .item h3{position: absolute;height:31px;padding:0 10px;line-height:31px;font-size: 14px;font-weight:400}
+.dd-inner a{color:#fff;font-size: 14px;}
+.dd-inner .item i{position: absolute; top: 5px; right: 25px; font: 400 12px/30px consolas;  color: #fff;
+    width: 4px; height: 14px;}
+
+/*侧边栏下拉栏*/
+.dropdown-layer{position:absolute; left: 209px;top: 45px; width: 999px;background: #f7f7f7;
+    border: 1px solid #b61d1d; overflow: hidden}
+.item-sub{overflow: hidden;display: none;}
+.item-channels{float: left;height: 24px; padding: 20px 0 0 20px; width:790px;display: inline;background: #f7f7f7;overflow: hidden;}
+.item-channels a{float: left; display: inline; display: inline-block; padding: 0 0 0 8px; color: #fff;
+    font:400 12px/24px consoals; margin-right: 10px; line-height: 24px; background: #7C7171;white-space: nowrap}
+.item-channels i{width:23px;height:24px; display:inline-block;margin-left:8px; background: #5c5251;
+    text-align: center; cursor: pointer;font:400 12px/24px consoals}
+.dropdown-layer .subitems{width: 790px;min-height: 409px; float: left;padding: 6px 0 1006px 20px;
+    margin-bottom: -1000px;  background: #f7f7f7;}
+.subitems dl {width: 100%; overflow: hidden;}
+.subitems dt{position: relative;float: left;width: 58px; padding: 8px 30px 0 0;text-align: right;
+    font-weight:800; font-size: 12px;}
+.subitems  a{color: #666}
+.subitems dt i{position: absolute;top: 8px;right: 18px;width: 4px; height: 14px; font: 400 9px/14px consolas}
+.subitems dd{padding: 4px 0; width: 620px;border-top: 1px solid #e0e0e0;float: left;}
+.subitems dd a{float: left;padding: 0 8px;margin: 4px 0;height: 16px;font: 400 12px/16px consoal;
+    border-left: 1px solid #e0e0e0; }
+.item-brands{width: 180px;float: right; display: inline;overflow: hidden; margin-bottom: 5px}
+.item-brands img{float:left;margin:0 1px 1px 0px}
+.item-promotions{float: right;width:180px }
+
+/*轮播部分*/
+.banner{width:1200px;height:466px;margin: 0 auto;position: relative; z-index:-1;}
+.banner .lunbo{position: absolute; top: 15px; left: 220px;}
+.lunbo li {display: none;}
+.banner .num{position: absolute;top: 425px; left: 455px}
+.banner .num li{width:20px;height:20px;border-radius:10px;margin-right:5px;text-align:center;float: left;
+    background: #3e3e3e; color: #fff;cursor: pointer }
+.banner .left,.banner .right{width:30px;height: 60px;opacity: 0.8;position: absolute; background: #ddd;
+    font:400 40px/50px consoal;text-align:center; color: #fff;cursor: pointer;}
+.left{top: 200px; left: 220px; }
+.right{top: 200px; right: 250px;}
+.main .message{width: 248px;height: 454px;overflow: hidden; border: solid 1px #e4e4e4; border-bottom: 0;
+    float: right; margin-top: 14px; margin-right: -10px;}
+.message .mt{height: 32px; border-bottom: 1px dotted #E8E8E7;}
+.message .mt h3{float:left;font:400 16px/32px consoal;padding: 0 10px;}
+
+/*banner右半部分广告栏*/
+.extra{float:right; padding: 6px 10px; font-size: 12px; }
+.news{height: 120px; padding: 5px}
+.news ul li span{font-weight:700;margin-right: 5px; font-size: 14px;}
+.news ul li{font-size: 12px;line-height: 24px;}
+.news ul li:hover{color:#C81623}
+.serve{position:relative;height: 208px;margin-top: 10px; border-top: 1px solid #E8E8E7;margin-bottom: 2px;}
+.serve ul li{float: left; position:relative;width: 61px;height: 68px;display: inline;border-right: 1px solid #E8E8E7;
+    border-bottom: 1px solid #E8E8E7; overflow: hidden; cursor: pointer; }
+.serve ul li i{ position:absolute;top: 13px; left: 15px;  width: 25px; height: 25px}
+.serve ul span{position: absolute; top: 45px;left: 13px; font-size: 14px;}
+.serve ul span:hover{color: #C81623}
+.serve ul .fore1 i{background:url("../images/57620a6fN77b2b8af.png") 0 0 no-repeat;}
+.serve ul .fore2 i{background:url("../images/57620a6fN77b2b8af.png") 0 -25px no-repeat;}
+.serve ul .fore3 i{background:url("../images/57620a6fN77b2b8af.png") 0 -50px no-repeat;}
+.serve ul .fore4 i{background:url("../images/57620a6fN77b2b8af.png") 0 -75px no-repeat;}
+.serve ul .fore5 i{background:url("../images/57620a6fN77b2b8af.png") 0 -100px no-repeat;}
+.serve ul .fore6 i{background:url("../images/57620a6fN77b2b8af.png") 0 -125px no-repeat;}
+.serve ul .fore7 i{background:url("../images/57620a6fN77b2b8af.png") 0 -150px no-repeat;}
+.serve ul .fore8 i{background:url("../images/57620a6fN77b2b8af.png") 0 -175px no-repeat;}
+.serve ul .fore9 i{background:url("../images/57620a6fN77b2b8af.png") 0 -200px no-repeat;}
+.serve ul .fore10 i{background:url("../images/57620a6fN77b2b8af.png") 0 -225px no-repeat;}
+.serve ul .fore11 i{background:url("../images/57620a6fN77b2b8af.png") 0 -250px no-repeat;}
+.serve ul .fore12 i{background:url("../images/57620a6fN77b2b8af.png") 0 -275px no-repeat;}
